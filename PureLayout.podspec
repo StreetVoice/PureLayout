@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/PureLayout/PureLayout.git', :tag => 'v3.0.2' }
   s.source_files          = 'PureLayout/PureLayout'
   s.requires_arc          = true
+  s.frameworks = 'UIKit'
   s.summary               = 'The ultimate API for iOS & OS X Auto Layout — impressively simple, immensely powerful. Objective-C and Swift compatible.'
   s.description  = <<-DESC
 	  # PureLayout
